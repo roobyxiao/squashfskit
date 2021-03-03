@@ -4060,7 +4060,7 @@ unsigned int slog(unsigned int block)
 {
 	int i;
 
-	for(i = 12; i <= 20; i++)
+	for(i = 12; i <= 40; i++)
 		if(block == (1 << i))
 			return i;
 	return 0;
